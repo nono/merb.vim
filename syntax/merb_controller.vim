@@ -18,6 +18,7 @@ syn keyword mrRailisms      url_for verify_action verify_method
 syn keyword mrRailisms      rescue_action_in_public rescue_action_locally
 syn keyword mrRailisms      filter_parameter_logging render_to_string
 syn keyword mrRailisms      redirect_to redirect_back_or_default
+syn keyword mrRailisms      :except
 
 syn keyword mrFilters       after before skip_after skip_before
 syn keyword mrLayout        layout
