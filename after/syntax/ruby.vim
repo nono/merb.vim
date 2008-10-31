@@ -5,7 +5,7 @@
 " Version:     0.1
 " URL:         http://yard.rubyforge.org/
 
-syn match rubyYard contained containedin=rubyComment /@\(param\|yieldparam\|yield\|return\|deprecated\|raise\|see\|since\|version\|author\)/
+syn match rubyYard contained containedin=rubyComment /@\(param\|yieldparam\|yield\|return\|deprecated\|raise\|see\|since\|version\|author\|api\)/
 syn match rubyYard contained containedin=rubyComment /==== .*$/
 
 " Define the default highlighting.
