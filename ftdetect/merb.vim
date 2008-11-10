@@ -1,4 +1,4 @@
-au BufRead,BufNewFile Capfile set ft=ruby
+au BufRead,BufNewFile Capfile,*.thor set ft=ruby
 au BufRead,BufNewFile */config/router.rb set ft=ruby.merb_router
 au BufRead,BufNewFile *.yml.sample set ft=yaml
 au BufRead,BufNewFile */schema/migrations/*.rb set ft=ruby.datamapper_migration
