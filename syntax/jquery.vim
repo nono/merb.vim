@@ -1,14 +1,22 @@
 " Vim syntax file
 " Language:    jQuery
 " Maintainer:  Bruno Michel <brmichel@free.fr>
-" Last Change: Jan 14, 2010
-" Version:     0.3
+" Last Change: Feb 2nd, 2010
+" Version:     0.4
 " URL:         http://jquery.com/
 
-if exists("b:current_syntax") && b:current_syntax =~ "jquery"
+if version < 600
+  syntax clear
+elseif exists("b:current_syntax")
   finish
 endif
 
+if !exists("main_syntax")
+  let main_syntax = 'javascript'
+endif
+
+ru! syntax/javascript.vim
+unlet b:current_syntax
 
 syn match   jQuery          /jQuery\|\$/
 
@@ -103,4 +111,4 @@ if version >= 508 || !exists("did_lisp_syntax_inits")
 endif
 
 
-let b:current_syntax = 'javascript.jquery'
+let b:current_syntax = 'jquery'
