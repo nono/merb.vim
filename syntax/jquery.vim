@@ -21,7 +21,7 @@ unlet b:current_syntax
 syn match   jQuery          /jQuery\|\$/
 
 
-syn match   jFunc           /\.\w\+(/ contains=@jFunctions
+syn match   jFunc           /\.\w\+(\@=/ contains=@jFunctions
 
 syn cluster jFunctions      contains=jCore,jAttributes,jTraversing,jManipulation,jCSS,jEvents,jAjax,jUtilities,jEffects
 syn keyword jCore           contained each size length selector context eq get index toArray
