@@ -4,9 +4,9 @@
 
 Author:: Bruno Michel <brmichel@free.fr>
 Licence:: MIT licence
-Homepage:: http://github.com/nono/merb.vim/tree
+Homepage:: http://github.com/nono/merb.vim
 
-This is a set of vim plugins for Merb, including Datamapper, jQuery and features.
+This is a set of vim plugins for Merb, including Datamapper and features.
 Currently, it's mostly composed of syntax files for Vim coloration.
 You can install it with `rake install`, or simply copy file to your vim directory.
 
@@ -15,4 +15,8 @@ You can install it with `rake install`, or simply copy file to your vim director
  * The syntax file for HAML can be found here: http://www.vim.org/scripts/script.php?script_id=1773
  * If you prefer Rspec stories to cucumber feature, you can use the vim-story plugin: http://github.com/agile/vim-story/tree
  * Thanks to Tim Pope for its incredible Rails.vim: http://rails.vim.tpope.net/
+
+== jQuery
+
+jQuery.vim was moved to its own repository: https://github.com/nono/jquery.vim
 

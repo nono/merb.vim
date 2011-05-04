@@ -8,4 +8,3 @@ au BufRead,BufNewFile */app/controllers/*.rb set ft=ruby.merb_controller
 au BufRead,BufNewFile */app/{mailers/,}views/*.erb set ft=eruby.merb_view
 au BufRead,BufNewFile *.haml set ft=haml " http://www.vim.org/scripts/script.php?script_id=1773
 au BufRead,BufNewFile *.feature set ft=feature
-au BufRead,BufNewFile */public/javascripts/*.js set ft=javascript.jquery
